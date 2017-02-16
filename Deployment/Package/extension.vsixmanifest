@@ -1,0 +1,21 @@
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
+  <Metadata>
+    <Identity Id="b600dba1-7bf1-4beb-b2d0-bdd53501a853" Version="0.9" Language="en-US" Publisher="Dave Brewster" />
+    <DisplayName>LocateFolder</DisplayName>
+    <Description xml:space="preserve">Open Windows Explorer Window in file's location.</Description>
+    <MoreInfo>http://www.forestcitysoftware.com</MoreInfo>
+    <License>License.txt</License>
+    <Icon>C:\Users\Dave\Documents\Visual Studio 2015\Projects\SignalRProgressBar\SignalRProgressBar\favicon.ico</Icon>
+    <PreviewImage>tatoo.jpg</PreviewImage>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.14.0" DisplayName="Visual Studio MPF 14.0" Version="[14.0]" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" Path="LocateFolder.pkgdef" />
+  </Assets>
+</PackageManifest>
