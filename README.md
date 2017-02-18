@@ -1,5 +1,8 @@
 # LocateFolder
 
+[![Build status](https://ci.appveyor.com/api/projects/status/p96w5y50p6xw7ykm?svg=true)](https://ci.appveyor.com/project/dcbrewster/openfileinwindowsexplorer)
+
+
 Open Windows Explorer Window in file's location.
 
 See the [change log](CHANGELOG.md) for changes and road map.
